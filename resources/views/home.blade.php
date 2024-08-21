@@ -10,6 +10,7 @@
         <h1>Garuda Cyber Institute</h1>
         <ul style="list-style: none ;">
             <li><a href="/register" style="color: black;font-size:30px;font-weight:bold;text-decoration:none">sign up</a></li>
+            <li><a href="/table" style="color: black;font-size:30px;font-weight:bold;text-decoration:none">dashboard</a></li>
         </ul>
     </nav>
     <h2>Jadilah Together Web Garuda Cyber Institute</h2>
