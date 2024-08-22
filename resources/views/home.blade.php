@@ -1,32 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <nav style="padding: 8px 12px;display:flex;align-items:center;justify-content: space-between;background:gray;">
-        <h1>Garuda Cyber Institute</h1>
-        <ul style="list-style: none ;">
-            <li><a href="/register" style="color: black;font-size:30px;font-weight:bold;text-decoration:none">sign up</a></li>
-            <li><a href="/table" style="color: black;font-size:30px;font-weight:bold;text-decoration:none">dashboard</a></li>
-        </ul>
-    </nav>
-    <h2>Jadilah Together Web Garuda Cyber Institute</h2>
-    <p>Grow Together Garuda Cyber Institute</p>
-    <h2>Syarat dan Ketentuan</h2>
-    <ul>
-        <li>Tamatan SMA/SMK</li>
-        <li>Tamatan Perguruan Tinggi</li>
-        <li>Pekerrja IT</li>
-        <li>Freelancer</li>
-    </ul>
-    <h2>Cara Bergabung</h2>
-    <ol type="1">
-        <li>Kunjungi Website GC-INS</li>
-        <li>Register</li>
-        <li>Lakukan Pembayaran</li>
-    </ol>
-</body>
-</html>
+@extends('layouts.main')
+
+@section('content')
+     <!-- Main Content -->
+     <div class="container mt-5">
+        <div class="text-center">
+            <h2 class="display-4">Jadilah Together Web Garuda Cyber Institute</h2>
+            <p class="lead">Grow Together Garuda Cyber Institute</p>
+        </div>
+
+        <!-- Syarat dan Ketentuan -->
+        <div class="my-5">
+            <h3>Syarat dan Ketentuan</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Tamatan SMA/SMK</li>
+                <li class="list-group-item">Tamatan Perguruan Tinggi</li>
+                <li class="list-group-item">Pekerja IT</li>
+                <li class="list-group-item">Freelancer</li>
+            </ul>
+        </div>
+
+        <!-- Cara Bergabung -->
+        <div class="my-5">
+            <h3>Cara Bergabung</h3>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Kunjungi Website GC-INS</li>
+                <li class="list-group-item">Register</li>
+                <li class="list-group-item">Lakukan Pembayaran</li>
+            </ol>
+        </div>
+    </div>
+@endsection
