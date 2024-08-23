@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class MovieController extends Controller
 {
     public function index(){
-        return view('movie.index',[
+        return view('index',[
             'title' => 'HomePage'
         ]);
     }

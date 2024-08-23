@@ -4,7 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Dashboard</title>
+    <title>AdminLTE 3 | {{ $title }}</title>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -97,7 +100,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="pages/widgets.html" class="nav-link">
+                            <a href="/" class="nav-link">
                                 <i class="nav-icon fas fa-home"></i>
                                 <p>
                                     Dashboard
@@ -119,7 +122,12 @@
                                         <p>Table data</p>
                                     </a>
                                 </li>
-                                
+                                <li class="nav-item">
+                                    <a href="/cast" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Cast</p>
+                                    </a>
+                                </li> 
                             </ul>
                         </li>
                     </ul>
@@ -136,7 +144,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">{{ $title }}</h1>
+                            <h1 class="m-0"></h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
